@@ -1,0 +1,4 @@
+package questions
+
+class Sample {
+}

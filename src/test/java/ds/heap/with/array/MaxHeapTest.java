@@ -21,13 +21,14 @@ public class MaxHeapTest {
         for (int i = 0; i < smallArray.length; i++) {
             smallArray[i] = scanner.nextInt();
         }
-
+        scanner.close();
         file = new File(getClass().getClassLoader().getResource("array/largeArray.txt").getFile());
         scanner = new Scanner(file);
         largerArray = new Integer[scanner.nextInt()];
         for (int i = 0; i < largerArray.length; i++) {
             largerArray[i] = scanner.nextInt();
         }
+        scanner.close();
     }
 
     @Test

@@ -21,20 +21,21 @@ public class MinHeapTest {
         for (int i = 0; i < smallArray.length; i++) {
             smallArray[i] = scanner.nextInt();
         }
-
+        scanner.close();
         file = new File(getClass().getClassLoader().getResource("array/largeArray.txt").getFile());
         scanner = new Scanner(file);
         largerArray = new Integer[scanner.nextInt()];
         for (int i = 0; i < largerArray.length; i++) {
             largerArray[i] = scanner.nextInt();
         }
+        scanner.close();
     }
 
     @Test
     public void checkMinHeapWithSmallArray() {
         Heap<Integer> heap = new MinHeap<>();
-        for (int i = 0; i < smallArray.length; i++) {
-            heap.addNode(smallArray[i]);
+        for (Integer integer : smallArray) {
+            heap.addNode(integer);
         }
 
         int previousValue = heap.peek();
@@ -49,8 +50,8 @@ public class MinHeapTest {
     @Test
     public void checkMinHeapWithLargeArray() {
         Heap<Integer> heap = new MinHeap<>();
-        for (int i = 0; i < largerArray.length; i++) {
-            heap.addNode(largerArray[i]);
+        for (Integer integer : largerArray) {
+            heap.addNode(integer);
         }
 
         int previousValue = heap.peek();
