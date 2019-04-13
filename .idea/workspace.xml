@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3ec1895-a901-49a8-977a-26149fa29c6d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ds/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ds/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ds/heap/Heap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ds/heap/MaxHeap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ds/heap/MinHeap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/array/defaultArray.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/array/defaultArray.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ds/heap/MaxHeapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ds/heap/MaxHeapTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ds/heap/MinHeapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ds/heap/MinHeapTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ds/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ds/heap/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/heap/with/node/Heap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ds/heap/MaxHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/heap/with/node/MaxHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ds/heap/MinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/heap/with/node/MinHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/array/defaultArray.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/array/defaultArray.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ds/heap/MaxHeapTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ds/heap/MinHeapTest.java" beforeDir="false" />
-    </list>
+    <list default="true" id="b3ec1895-a901-49a8-977a-26149fa29c6d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -35,10 +19,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ds/heap/with/node/MaxHeapTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ds/tree/BinaryTreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="62" column="9" lean-forward="true" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+            <state relative-caret-position="297">
+              <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,12 +31,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ds/heap/with/node/MinHeapTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ds/tree/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+            <state relative-caret-position="619">
+              <caret line="65" column="25" lean-forward="true" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#175#176#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#1743#1744#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,7 +78,6 @@
         <option value="$PROJECT_DIR$/src/main/java/algorithms/sort/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/test/java/algorithms/sort/QuickSortTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/problems/TruckLoad.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ds/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/ds/heap/size/constant/MinHeap.java" />
         <option value="$PROJECT_DIR$/src/main/java/ds/heap/size/constant/MaxHeap.java" />
         <option value="$PROJECT_DIR$/src/main/resources/array/defaultArray.txt" />
@@ -102,8 +88,11 @@
         <option value="$PROJECT_DIR$/src/main/java/ds/heap/with/node/MaxHeap.java" />
         <option value="$PROJECT_DIR$/src/test/java/ds/heap/MaxHeapTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ds/heap/with/array/MaxHeapTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ds/heap/with/node/MaxHeapTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ds/heap/with/node/MinHeapTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ds/heap/with/node/MaxHeapTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ds/Application.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ds/tree/BinaryTreeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ds/tree/BinaryTree.java" />
       </list>
     </option>
   </component>
@@ -162,36 +151,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ds" type="462c0819:PsiDirectoryNode" />
-              <item name="with" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ds" type="462c0819:PsiDirectoryNode" />
-              <item name="with" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ds" type="462c0819:PsiDirectoryNode" />
-              <item name="with" type="462c0819:PsiDirectoryNode" />
-              <item name="node" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ds" type="462c0819:PsiDirectoryNode" />
-              <item name="node" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
@@ -235,6 +195,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructures" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
               <item name="with" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -243,17 +212,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
               <item name="with" type="462c0819:PsiDirectoryNode" />
               <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="with" type="462c0819:PsiDirectoryNode" />
-              <item name="node" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,21 +224,21 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555178262524" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555183340019" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/ds/heap/with/node" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/ds" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ds.tree" />
       <recent name="ds.heap.with.node" />
       <recent name="ds.heap.with.array" />
       <recent name="ds.heap.size.constant" />
       <recent name="algorithms.sort" />
-      <recent name="ds.heap" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -296,7 +257,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MinHeapTest.checkMinHeapWithSmallArray">
+  <component name="RunManager" selected="JUnit.BinaryTreeTest.checkBinaryTreePropertyWithSmallArray">
+    <configuration name="BinaryTreeTest.checkBinaryTreePropertyWithLargeArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.github.karthyks.data.structure.DataStructures.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ds.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ds.tree" />
+      <option name="MAIN_CLASS_NAME" value="ds.tree.BinaryTreeTest" />
+      <option name="METHOD_NAME" value="checkBinaryTreePropertyWithLargeArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTreeTest.checkBinaryTreePropertyWithSmallArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.github.karthyks.data.structure.DataStructures.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ds.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ds.tree" />
+      <option name="MAIN_CLASS_NAME" value="ds.tree.BinaryTreeTest" />
+      <option name="METHOD_NAME" value="checkBinaryTreePropertyWithSmallArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MaxHeapTest.checkMaxHeapWithLargeArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.github.karthyks.data.structure.DataStructures.test" />
       <extension name="coverage">
@@ -308,38 +301,6 @@
       <option name="PACKAGE_NAME" value="ds.heap.with.node" />
       <option name="MAIN_CLASS_NAME" value="ds.heap.with.node.MaxHeapTest" />
       <option name="METHOD_NAME" value="checkMaxHeapWithLargeArray" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxHeapTest.checkMaxHeapWithSmallArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.github.karthyks.data.structure.DataStructures.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ds.heap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ds.heap" />
-      <option name="MAIN_CLASS_NAME" value="ds.heap.MaxHeapTest" />
-      <option name="METHOD_NAME" value="checkMaxHeapWithSmallArray" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxHeapTest.checkMinHeapWithLargeArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.github.karthyks.data.structure.DataStructures.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ds.heap.with.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ds.heap.with.array" />
-      <option name="MAIN_CLASS_NAME" value="ds.heap.with.array.MaxHeapTest" />
-      <option name="METHOD_NAME" value="checkMinHeapWithLargeArray" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -379,11 +340,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BinaryTreeTest.checkBinaryTreePropertyWithSmallArray" />
+        <item itemvalue="JUnit.BinaryTreeTest.checkBinaryTreePropertyWithLargeArray" />
         <item itemvalue="JUnit.MinHeapTest.checkMinHeapWithSmallArray" />
         <item itemvalue="JUnit.MaxHeapTest.checkMaxHeapWithLargeArray" />
         <item itemvalue="JUnit.MaxHeapTest.checkMinHeapWithSmallArray (1)" />
-        <item itemvalue="JUnit.MaxHeapTest.checkMinHeapWithLargeArray" />
-        <item itemvalue="JUnit.MaxHeapTest.checkMaxHeapWithSmallArray" />
       </list>
     </recent_temporary>
   </component>
@@ -401,27 +362,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MinHeapTest_checkMinHeapWithSmallArray - 2019.04.13 at 23h 14m 25s.xml">
-      <configuration name="MinHeapTest.checkMinHeapWithSmallArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MaxHeapTest_checkMinHeapWithSmallArray - 2019.04.13 at 23h 17m 38s.xml">
-      <configuration name="MaxHeapTest.checkMinHeapWithSmallArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MaxHeapTest_checkMaxHeapWithSmallArray - 2019.04.13 at 23h 18m 16s.xml">
-      <configuration name="MaxHeapTest.checkMaxHeapWithSmallArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MaxHeapTest_checkMaxHeapWithSmallArray - 2019.04.13 at 23h 19m 36s.xml">
-      <configuration name="MaxHeapTest.checkMaxHeapWithSmallArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MaxHeapTest_checkMaxHeapWithSmallArray - 2019.04.13 at 23h 19m 55s.xml">
-      <configuration name="MaxHeapTest.checkMaxHeapWithSmallArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MaxHeapTest_checkMinHeapWithLargeArray - 2019.04.13 at 23h 22m 18s.xml">
-      <configuration name="MaxHeapTest.checkMinHeapWithLargeArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MaxHeapTest_checkMinHeapWithLargeArray - 2019.04.13 at 23h 22m 38s.xml">
-      <configuration name="MaxHeapTest.checkMinHeapWithLargeArray" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MaxHeapTest_checkMinHeapWithSmallArray_(1) - 2019.04.13 at 23h 22m 43s.xml">
       <configuration name="MaxHeapTest.checkMinHeapWithSmallArray (1)" configurationId="JUnit" />
     </history-entry>
@@ -430,6 +370,27 @@
     </history-entry>
     <history-entry file="MaxHeapTest_checkMaxHeapWithLargeArray - 2019.04.13 at 23h 27m 13s.xml">
       <configuration name="MaxHeapTest.checkMaxHeapWithLargeArray" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MinHeapTest_checkMinHeapWithSmallArray - 2019.04.13 at 23h 28m 07s.xml">
+      <configuration name="MinHeapTest.checkMinHeapWithSmallArray" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTreeTest_checkBinaryTreePropertyWithSmallArray - 2019.04.14 at 00h 50m 18s.xml">
+      <configuration name="BinaryTreeTest.checkBinaryTreePropertyWithSmallArray" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTreeTest_checkBinaryTreePropertyWithSmallArray - 2019.04.14 at 00h 50m 38s.xml">
+      <configuration name="BinaryTreeTest.checkBinaryTreePropertyWithSmallArray" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTreeTest_checkBinaryTreePropertyWithSmallArray - 2019.04.14 at 00h 50m 57s.xml">
+      <configuration name="BinaryTreeTest.checkBinaryTreePropertyWithSmallArray" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTreeTest_checkBinaryTreePropertyWithLargeArray - 2019.04.14 at 00h 51m 04s.xml">
+      <configuration name="BinaryTreeTest.checkBinaryTreePropertyWithLargeArray" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTreeTest_checkBinaryTreePropertyWithLargeArray - 2019.04.14 at 00h 51m 44s.xml">
+      <configuration name="BinaryTreeTest.checkBinaryTreePropertyWithLargeArray" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTreeTest_checkBinaryTreePropertyWithSmallArray - 2019.04.14 at 00h 52m 22s.xml">
+      <configuration name="BinaryTreeTest.checkBinaryTreePropertyWithSmallArray" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -441,7 +402,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23626374" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23626374" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.37394452" />
@@ -450,7 +411,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32810616" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4402895" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4402895" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3305187" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -465,18 +426,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ds/node/NodePrinter.java</url>
-          <line>3</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
@@ -521,24 +470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ds/node/NodePrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ds/node/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/algorithms/sort/QuickSortTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -580,16 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ds/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-292">
@@ -611,22 +532,6 @@
           <folding>
             <element signature="e#15878#15879#0" expanded="true" />
             <element signature="e#15927#15928#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ds/heap/with/array/Heap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#1740#1741#0" expanded="true" />
-            <element signature="e#2311#2312#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -693,16 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ds/heap/with/array/MaxHeapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ds/heap/with/node/MinHeap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -710,20 +605,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ds/heap/with/array/MinHeapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="36" lean-forward="true" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ds/heap/with/node/MaxHeapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="62" column="9" lean-forward="true" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+        <state relative-caret-position="712">
+          <caret line="60" column="85" selection-start-line="60" selection-start-column="85" selection-end-line="60" selection-end-column="85" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -732,13 +617,167 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ds/heap/with/node/MinHeapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+        <state relative-caret-position="-19">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ds/heap/with/array/MinHeapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="45" column="36" lean-forward="true" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ds/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ds/node/NodePrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ds/heap/with/array/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="38" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ds/node/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ds/heap/with/array/MaxHeapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ds/tree/BinaryTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ds/tree/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="65" column="25" lean-forward="true" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#1743#1744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Kotlin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>test|com.github.karthyks.data.structure.DataStructures</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
