@@ -1,4 +1,4 @@
-package ds.heap;
+package ds.heap.with.array;
 
 import org.junit.After;
 import org.junit.Assert;
@@ -8,7 +8,7 @@ import org.junit.Test;
 import java.io.File;
 import java.util.Scanner;
 
-public class MinHeapTest {
+public class MaxHeapTest {
 
     Integer[] smallArray;
     Integer[] largerArray;
@@ -32,32 +32,32 @@ public class MinHeapTest {
 
     @Test
     public void checkMinHeapWithSmallArray() {
-        Heap<Integer> heap = new MinHeap<>();
+        Heap<Integer> heap = new MaxHeap<>();
         for (int i = 0; i < smallArray.length; i++) {
-            heap.addNode(smallArray[i]);
+            heap.add(smallArray[i]);
         }
 
         int previousValue = heap.peek();
 
         while (!heap.isEmpty()) {
             int current = heap.poll();
-            Assert.assertTrue("Previous value " + previousValue + " should be lesser than  or equals to current value " + current, previousValue <= current);
+            Assert.assertTrue("Previous value " + previousValue + " should be greater than  or equals to current value " + current, previousValue >= current);
             previousValue = current;
         }
     }
 
     @Test
     public void checkMinHeapWithLargeArray() {
-        Heap<Integer> heap = new MinHeap<>();
+        Heap<Integer> heap = new MaxHeap<>();
         for (int i = 0; i < largerArray.length; i++) {
-            heap.addNode(largerArray[i]);
+            heap.add(largerArray[i]);
         }
 
         int previousValue = heap.peek();
 
         while (!heap.isEmpty()) {
             int current = heap.poll();
-            Assert.assertTrue("Previous value " + previousValue + " should be lesser than  or equals to current value " + current, previousValue <= current);
+            Assert.assertTrue("Previous value " + previousValue + " should be greater than  or equals to current value " + current, previousValue >= current);
             previousValue = current;
         }
     }

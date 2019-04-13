@@ -1,4 +1,4 @@
-package ds.heap;
+package ds.heap.with.node;
 
 import ds.node.Node;
 

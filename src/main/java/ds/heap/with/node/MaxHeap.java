@@ -1,8 +1,8 @@
-package ds.heap;
+package ds.heap.with.node;
 
 import ds.node.Node;
 
-public class MinHeap<T extends Comparable<T>> extends Heap<T> {
+public class MaxHeap<T extends Comparable<T>> extends Heap<T> {
 
     @Override
     Node<T> chooseParent(Node<T> a, Node<T> b) {
@@ -13,11 +13,11 @@ public class MinHeap<T extends Comparable<T>> extends Heap<T> {
             int result = a.value.compareTo(b.value);
             switch (result) {
                 case -1:
-                    return a;
-                case 1:
                     return b;
-                default:
+                case 1:
                     return a;
+                default:
+                    return b;
             }
         }
     }

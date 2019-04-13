@@ -1,4 +1,4 @@
-package ds.heap;
+package ds.heap.with.node;
 
 import org.junit.After;
 import org.junit.Assert;
@@ -9,6 +9,7 @@ import java.io.File;
 import java.util.Scanner;
 
 public class MaxHeapTest {
+
 
     Integer[] smallArray;
     Integer[] largerArray;
@@ -41,7 +42,7 @@ public class MaxHeapTest {
 
         while (!heap.isEmpty()) {
             int current = heap.poll();
-            Assert.assertTrue("Previous value " + previousValue + " should be lesser than  or equals to current value " + current, previousValue <= current);
+            Assert.assertTrue("Previous value " + previousValue + " should be greater than  or equals to current value " + current, previousValue >= current);
             previousValue = current;
         }
     }
@@ -57,7 +58,7 @@ public class MaxHeapTest {
 
         while (!heap.isEmpty()) {
             int current = heap.poll();
-            Assert.assertTrue("Previous value " + previousValue + " should be lesser than  or equals to current value " + current, previousValue <= current);
+            Assert.assertTrue("Previous value " + previousValue + " should be greater than  or equals to current value " + current, previousValue >= current);
             previousValue = current;
         }
     }
